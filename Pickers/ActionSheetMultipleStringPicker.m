@@ -162,6 +162,14 @@
 }
 
 - (NSAttributedString *)pickerView:(UIPickerView *)pickerView attributedTitleForRow:(NSInteger)row forComponent:(NSInteger)component {
+    if (component == 1) {
+        if (row == 0) {
+            return [[NSAttributedString alloc] initWithString:@"Low to High" attributes:self.pickerTextAttributes];
+        } else {
+            return [[NSAttributedString alloc] initWithString:@"High to Low" attributes:self.pickerTextAttributes];
+        }
+    }
+
     id obj = (self.data)[component][(NSUInteger) row];
 
     // return the object if it is already a NSString,
