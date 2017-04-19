@@ -128,14 +128,24 @@
 }
 
 - (NSInteger)numberOfComponentsInPickerView:(UIPickerView *)pickerView {
-    return [self.data count];
+    return 2;
 }
 
 - (NSInteger)pickerView:(UIPickerView *)pickerView numberOfRowsInComponent:(NSInteger)component {
+    if component == 1 {
+        return 2
+    }
     return ((NSArray *)self.data[component]).count;
 }
 
 - (NSString *)pickerView:(UIPickerView *)pickerView titleForRow:(NSInteger)row forComponent:(NSInteger)component {
+    if (component == 1) {
+        if (row == 0) {
+            return @"High to Low";
+        } else {
+            return @"Low to High";
+        }
+    }
     id obj = (self.data)[(NSUInteger) row];
 
     // return the object if it is already a NSString,
