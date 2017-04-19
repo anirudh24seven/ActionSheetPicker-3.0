@@ -132,7 +132,7 @@
 }
 
 - (NSInteger)pickerView:(UIPickerView *)pickerView numberOfRowsInComponent:(NSInteger)component {
-    if (component == 1) {
+    if component == 1 {
         return 2
     }
     return ((NSArray *)self.data[component]).count;
