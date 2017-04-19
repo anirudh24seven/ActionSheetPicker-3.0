@@ -105,21 +105,12 @@
 
 -(void)fillFirstAndSecondColumns
 {
-    NSMutableDictionary *dict = [[NSMutableDictionary alloc] init];
-    
     _firstColumn = [[NSMutableArray alloc] init];
-    
-    [_firstColumn addObject:@"FundsIndia Rating"];
-    [_firstColumn addObject:@"1 year return"];
-    [_firstColumn addObject:@"3 years return"];
-    [_firstColumn addObject:@"5 years return"];
-    [_firstColumn addObject:@"Launch date"];
-    
-    dict[@"FundsIndia Rating"] =  @[@"High to Low", @"Low to High"];
-    dict[@"1 year return"] =  @[@"High to Low", @"Low to High"];
-    dict[@"3 years return"] =  @[@"High to Low", @"Low to High"];
-    dict[@"5 years return"] =  @[@"High to Low", @"Low to High"];
-    dict[@"Launch date"] =  @[@"Oldest first", @"Newest first"];
+    NSMutableDictionary *dict = [[NSMutableDictionary alloc] init];
+    for (int i = 0; i < [_data[0] count]; ++i) {
+        [_firstColumn addObject:_data[0][i]];
+        dict[_firstColumn[i]] = _data[1];
+    }
     
     self.dataDictionary = dict;
 };
