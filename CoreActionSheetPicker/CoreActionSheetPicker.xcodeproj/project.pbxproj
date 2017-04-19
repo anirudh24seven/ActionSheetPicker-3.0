@@ -28,10 +28,10 @@
 		1CCA90801AE0EFC500368F5E /* DistancePickerView.h in Headers */ = {isa = PBXBuildFile; fileRef = 1CCA906E1AE0EFC500368F5E /* DistancePickerView.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		1CCA90811AE0EFC500368F5E /* DistancePickerView.m in Sources */ = {isa = PBXBuildFile; fileRef = 1CCA906F1AE0EFC500368F5E /* DistancePickerView.m */; };
 		1CCA90821AE0EFC500368F5E /* SWActionSheet.h in Headers */ = {isa = PBXBuildFile; fileRef = 1CCA90701AE0EFC500368F5E /* SWActionSheet.h */; };
+		8FED6C071EA7A323005EB8E2 /* ActionSheetDualPicker.h in Headers */ = {isa = PBXBuildFile; fileRef = 8FED6C061EA7A323005EB8E2 /* ActionSheetDualPicker.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8FED6C091EA7A35A005EB8E2 /* ActionSheetDualPicker.m in Sources */ = {isa = PBXBuildFile; fileRef = 8FED6C081EA7A35A005EB8E2 /* ActionSheetDualPicker.m */; };
 		906291E61B5EA81C00A115DA /* ActionSheetMultipleStringPicker.h in Headers */ = {isa = PBXBuildFile; fileRef = 906291E41B5EA81C00A115DA /* ActionSheetMultipleStringPicker.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		906291E71B5EA81C00A115DA /* ActionSheetMultipleStringPicker.m in Sources */ = {isa = PBXBuildFile; fileRef = 906291E51B5EA81C00A115DA /* ActionSheetMultipleStringPicker.m */; };
-		CCEEC3017E3DF2554ED04A85 /* ActionSheetDualPicker.h in Headers */ = {isa = PBXBuildFile; fileRef = CCEEC5FE6931A1312C05127A /* ActionSheetDualPicker.h */; };
-		CCEEC693FD279307A853FC81 /* ActionSheetDualPicker.m in Sources */ = {isa = PBXBuildFile; fileRef = CCEECE141B0C4BAF27A9D54A /* ActionSheetDualPicker.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -69,10 +69,10 @@
 		1CCA906E1AE0EFC500368F5E /* DistancePickerView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = DistancePickerView.h; path = ../Pickers/DistancePickerView.h; sourceTree = "<group>"; };
 		1CCA906F1AE0EFC500368F5E /* DistancePickerView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = DistancePickerView.m; path = ../Pickers/DistancePickerView.m; sourceTree = "<group>"; };
 		1CCA90701AE0EFC500368F5E /* SWActionSheet.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SWActionSheet.h; path = ../Pickers/SWActionSheet.h; sourceTree = "<group>"; };
+		8FED6C061EA7A323005EB8E2 /* ActionSheetDualPicker.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ActionSheetDualPicker.h; path = ../Pickers/ActionSheetDualPicker.h; sourceTree = "<group>"; };
+		8FED6C081EA7A35A005EB8E2 /* ActionSheetDualPicker.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ActionSheetDualPicker.m; path = ../Pickers/ActionSheetDualPicker.m; sourceTree = "<group>"; };
 		906291E41B5EA81C00A115DA /* ActionSheetMultipleStringPicker.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ActionSheetMultipleStringPicker.h; path = ../Pickers/ActionSheetMultipleStringPicker.h; sourceTree = "<group>"; };
 		906291E51B5EA81C00A115DA /* ActionSheetMultipleStringPicker.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ActionSheetMultipleStringPicker.m; path = ../Pickers/ActionSheetMultipleStringPicker.m; sourceTree = "<group>"; };
-		CCEEC5FE6931A1312C05127A /* ActionSheetDualPicker.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ActionSheetDualPicker.h; sourceTree = "<group>"; };
-		CCEECE141B0C4BAF27A9D54A /* ActionSheetDualPicker.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ActionSheetDualPicker.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -170,8 +170,8 @@
 				1CCA906E1AE0EFC500368F5E /* DistancePickerView.h */,
 				1CCA906F1AE0EFC500368F5E /* DistancePickerView.m */,
 				1CCA90701AE0EFC500368F5E /* SWActionSheet.h */,
-				CCEEC5FE6931A1312C05127A /* ActionSheetDualPicker.h */,
-				CCEECE141B0C4BAF27A9D54A /* ActionSheetDualPicker.m */,
+				8FED6C061EA7A323005EB8E2 /* ActionSheetDualPicker.h */,
+				8FED6C081EA7A35A005EB8E2 /* ActionSheetDualPicker.m */,
 			);
 			name = Pickers;
 			path = ..;
@@ -189,6 +189,7 @@
 				1CCA90821AE0EFC500368F5E /* SWActionSheet.h in Headers */,
 				1CCA90741AE0EFC500368F5E /* AbstractActionSheetPicker.h in Headers */,
 				1CCA90491AE0EFB000368F5E /* CoreActionSheetPicker.h in Headers */,
+				8FED6C071EA7A323005EB8E2 /* ActionSheetDualPicker.h in Headers */,
 				1CCA907D1AE0EFC500368F5E /* ActionSheetLocalePicker.h in Headers */,
 				1CCA90721AE0EFC500368F5E /* ActionSheetDistancePicker.h in Headers */,
 				1CCA90801AE0EFC500368F5E /* DistancePickerView.h in Headers */,
@@ -196,7 +197,6 @@
 				1CCA907F1AE0EFC500368F5E /* ActionSheetPicker.h in Headers */,
 				906291E61B5EA81C00A115DA /* ActionSheetMultipleStringPicker.h in Headers */,
 				1CCA907A1AE0EFC500368F5E /* ActionSheetCustomPicker.h in Headers */,
-				CCEEC3017E3DF2554ED04A85 /* ActionSheetDualPicker.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -297,6 +297,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				1CCA90731AE0EFC500368F5E /* ActionSheetDistancePicker.m in Sources */,
+				8FED6C091EA7A35A005EB8E2 /* ActionSheetDualPicker.m in Sources */,
 				1CCA90781AE0EFC500368F5E /* ActionSheetStringPicker.m in Sources */,
 				1CCA907B1AE0EFC500368F5E /* ActionSheetCustomPicker.m in Sources */,
 				1CCA90811AE0EFC500368F5E /* DistancePickerView.m in Sources */,
@@ -305,7 +306,6 @@
 				1CCA90711AE0EFC500368F5E /* AbstractActionSheetPicker.m in Sources */,
 				1CCA907E1AE0EFC500368F5E /* ActionSheetLocalePicker.m in Sources */,
 				1CCA90751AE0EFC500368F5E /* SWActionSheet.m in Sources */,
-				CCEEC693FD279307A853FC81 /* ActionSheetDualPicker.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

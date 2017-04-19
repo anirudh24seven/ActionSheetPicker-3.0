@@ -31,6 +31,9 @@
 typedef void(^ActionDualDoneBlock)(ActionSheetDualPicker *picker,  NSArray *selectedIndexes, id selectedValues);
 typedef void(^ActionDualCancelBlock)(ActionSheetDualPicker *picker);
 
+static const float dualFirstColumnWidth = 100.0f;
+static const float dualSecondColumnWidth = 160.0f;
+
 @interface ActionSheetDualPicker : AbstractActionSheetPicker <UIPickerViewDelegate, UIPickerViewDataSource>
 
 /**

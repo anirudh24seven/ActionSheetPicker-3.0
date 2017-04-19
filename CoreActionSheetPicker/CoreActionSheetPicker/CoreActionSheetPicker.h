@@ -22,6 +22,7 @@ FOUNDATION_EXPORT const unsigned char CoreActionSheetPickerVersionString[];
 #import <CoreActionSheetPicker/ActionSheetDatePicker.h>
 #import <CoreActionSheetPicker/ActionSheetDistancePicker.h>
 #import <CoreActionSheetPicker/ActionSheetLocalePicker.h>
+#import <CoreActionSheetPicker/ActionSheetDualPicker.h>
 #import <CoreActionSheetPicker/ActionSheetStringPicker.h>
 #import <CoreActionSheetPicker/ActionSheetMultipleStringPicker.h>
 #import <CoreActionSheetPicker/DistancePickerView.h>
