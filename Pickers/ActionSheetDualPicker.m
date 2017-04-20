@@ -109,7 +109,7 @@
     NSMutableDictionary *dict = [[NSMutableDictionary alloc] init];
     for (int i = 0; i < [_data[0] count]; ++i) {
         [_firstColumn addObject:_data[0][i]];
-        dict[_firstColumn[i]] = _data[1];
+        dict[_firstColumn[i]] = _data[1][i];
     }
     
     self.dataDictionary = dict;
