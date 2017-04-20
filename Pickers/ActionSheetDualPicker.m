@@ -79,6 +79,14 @@
 
 
 - (UIView *)configuredPickerView {
+    if (_firstColumnWidth==0) {
+        _firstColumnWidth = dualFirstColumnWidth;
+    }
+
+    if (_secondColumnWidth==0) {
+        _secondColumnWidth = dualSecondColumnWidth;
+    }
+
     [self fillFirstAndSecondColumns];
     [self setSelectedRows];
     
@@ -201,8 +209,8 @@
     
     switch (component) {
             
-        case 0: return dualFirstColumnWidth;
-        case 1: return dualSecondColumnWidth;
+        case 0: return _firstColumnWidth;
+        case 1: return _secondColumnWidth;
         default:break;
     }
     
@@ -220,10 +228,10 @@
         CGRect frame = CGRectZero;
         
         switch (component) {
-            case 0: frame = CGRectMake(0.0, 0.0, dualFirstColumnWidth, 32);
+            case 0: frame = CGRectMake(0.0, 0.0, _firstColumnWidth, 32);
                 break;
             case 1:
-                frame = CGRectMake(0.0, 0.0, dualSecondColumnWidth, 32);
+                frame = CGRectMake(0.0, 0.0, _secondColumnWidth, 32);
                 break;
             default:
                 assert(NO);

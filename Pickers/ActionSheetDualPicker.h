@@ -61,4 +61,7 @@ static const float dualSecondColumnWidth = 160.0f;
 @property (nonatomic, copy) ActionDualDoneBlock onActionSheetDone;
 @property (nonatomic, copy) ActionDualCancelBlock onActionSheetCancel;
 
+@property (nonatomic) float firstColumnWidth;
+@property (nonatomic) float secondColumnWidth;
+
 @end
